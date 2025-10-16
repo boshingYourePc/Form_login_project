@@ -12,9 +12,9 @@
     <header class="header">
         <nav class="nav_bar">
                 <ol class="nav_bar__list">
-                <li><a class="nav_link" href="#home">Home</a></li>
-                <li><a class="nav_link" href="#services">Services</a></li>
-                <li><a class="nav_link" href="#product">Product</a></li>
+                <li class="nav_item" ><a class="nav_link" href="#home">Home</a></li>
+                <li class="nav_item" ><a class="nav_link" href="#services">Services</a></li>
+                <li ><a class="nav_link" href="#product">Product</a></li>
                 <li><a class="nav_link" href="#contact">Contact Us</a></li>
                 </ol>
         </nav>
@@ -22,15 +22,23 @@
 
         <main class="content">
             <h1 class="main_title_content">Login Form</h1>
-            <img src="/images/profile_image.webp">
-            <form>
+            <img src="/images/profile_image.webp" alt="logo" class="logo_img">
+            <form class="main__form">
                 <label class="username_form" for="username">Username</label>
-                <input type="text" id="username" name="username" required min="1" max="10" placeholder="Enter Username">
+                <input class="input_form" type="text" id="username" name="username" required minlength="1" maxlength="16" placeholder="Enter Username">
                 
                 <label class="username_form" for="password">Password</label>
-                <input type="text" id="password" name="password" required min="1" max="10" placeholder="Enter Password">
+                <input class="input_form" type="password" id="password" name="password" required minlength="1" maxlength="10" placeholder="Enter Password">
+                <button type="submit" class="form_button">Login</button>
             </form>
+
+            <div>
+                <h1>Ofrecemos</h1>
+            </div>
         </main>
+        <footer>
+            <p class="footer_derechos">Derechos reservados:Zabdi Ayala Afguikar </p>
+        </footer>
     </body>
 </div>
 </html>

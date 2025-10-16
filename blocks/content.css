@@ -4,3 +4,55 @@
     font-size: 50px;
     margin-top:9px;
 }
+.logo_img{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    border-style: solid ;
+    border-color: white;
+    border-radius: 50%;
+}
+.main__form{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    padding: 10px;
+    gap: 15px;
+    margin: auto;
+    margin-top: 1vw;
+}
+.username_form{
+    color:white;
+    font-size: 30px;
+}
+.input_form{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+   border: none;
+}
+.input_form:focus{
+    outline: none;
+    background-color:rgb(239, 255, 252);
+}
+.input_form:hover{
+    background-color: rgb(239, 255, 252);
+    transition: .5s;
+   
+}
+.input_form::placeholder{
+color:  #838383;
+}
+.form_button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+
+}
+
+.form_button:hover{
+    background-color: #2b8afff7;
+    transition: .5s;
+}
