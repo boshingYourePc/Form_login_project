@@ -14,8 +14,8 @@
                 <ol class="nav_bar__list">
                 <li class="nav_item" ><a class="nav_link" href="#home">Home</a></li>
                 <li class="nav_item" ><a class="nav_link" href="#services">Services</a></li>
-                <li ><a class="nav_link" href="#product">Product</a></li>
-                <li><a class="nav_link" href="#contact">Contact Us</a></li>
+                <li class="nav_item"><a class="nav_link" href="#product">Product</a></li>
+                <li class="nav_item"><a class="nav_link" href="#contact">Contact Us</a></li>
                 </ol>
         </nav>
     </header>
@@ -24,12 +24,23 @@
             <h1 class="main_title_content">Login Form</h1>
             <img src="/images/profile_image.webp" alt="logo" class="logo_img">
             <form class="main__form">
+                <div class="inputs_container">
                 <label class="username_form" for="username">Username</label>
                 <input class="input_form" type="text" id="username" name="username" required minlength="1" maxlength="16" placeholder="Enter Username">
+                 </div>
                 
+                 <div class="inputs_container">
                 <label class="username_form" for="password">Password</label>
                 <input class="input_form" type="password" id="password" name="password" required minlength="1" maxlength="10" placeholder="Enter Password">
+                </div>
+                
                 <button type="submit" class="form_button">Login</button>
+                
+                <div class="remember_me_container">
+                <label class="remember_me_label" for="remember" >Remember me</label>
+                <input type="radio" id="remember" name="remember"  class="radio_input">
+                </div>
+                <a class="forgot_password_link" href="#forgotpassword">Forgot password</a>
             </form>
 
             <div>
